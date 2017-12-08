@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-pegjs-inline-precompile",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Babel plugin for inline precompile of pegjs expression",
   "license": "MIT",
   "repository": "",
@@ -9,7 +9,9 @@
     "node": ">=4"
   },
   "main": "lib/index.js",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "add-contributor": "all-contributors add",
     "precommit": "lint-staged",
@@ -25,10 +27,18 @@
     "validate": "npm run lint && npm run flow && npm run test"
   },
   "lint-staged": {
-    "*.js": [ "git add"],
-    "*.json": [ "git add"]
+    "*.js": [
+      "git add"
+    ],
+    "*.json": [
+      "git add"
+    ]
   },
-  "keywords": ["babel", "babel-plugin", "ast"],
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "ast"
+  ],
   "devDependencies": {
     "all-contributors-cli": "^4.10.0",
     "babel-cli": "^6.26.0",
