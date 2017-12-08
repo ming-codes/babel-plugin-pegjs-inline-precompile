@@ -17,7 +17,7 @@
     "prepublish": "npm run build",
     "fmt": "prettier --write '**/*.{js,json}'",
     "flow": "flow",
-    "lint": "eslint src --ignore-path src/__fixtures__",
+    "lint": "eslint src",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage --ci --runInBand",

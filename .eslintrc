@@ -1,3 +1,8 @@
 {
-  "extends": ["precure/oss"]
+  "extends": ["precure/oss"],
+
+  "rules": {
+    "prefer-const": 0,
+    "prettier/prettier": 1
+  }
 }

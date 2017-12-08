@@ -2,12 +2,14 @@
 import peg from 'pegjs'
 import { parseExpression } from 'babylon'
 
-export default ({ types: t }) => {
+export default (babel:any) => {
+  let t:any = babel.types;
+
   return {
     name: 'babel-plugin-pegjs-inline-precompile',
     visitor: {
       // Modified from https://github.com/ember-cli/babel-plugin-htmlbars-inline-precompile/blob/master/index.js#L8-L23
-      ImportDeclaration(path, state) {
+      ImportDeclaration(path:any, state:any) {
         let node = path.node;
 
         if (t.isLiteral(node.source, { value: 'pegjs-inline-precompile' })) {
@@ -26,7 +28,7 @@ export default ({ types: t }) => {
         }
       },
 
-      TaggedTemplateExpression(path, state) {
+      TaggedTemplateExpression(path:any, state:any) {
         let name = path.node.tag.name
         let quasi = path.node.quasi
         let element = quasi.quasis[0]
