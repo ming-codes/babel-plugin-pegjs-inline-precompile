@@ -34,8 +34,8 @@ export default (babel:any) => {
         let element = quasi.quasis[0]
 
         if (name === state.importId.name) {
-          if (quasi.expressions.length) {
-            // TODO throw error here, dont support inlined expression
+          if (quasi.expressions.length > 0) {
+            throw path.buildCodeFrameError('placeholders inside a tagged template string are not supported');
           }
 
           let ast = parseExpression(
