@@ -42,7 +42,7 @@
   "devDependencies": {
     "all-contributors-cli": "^4.10.0",
     "babel-cli": "^6.26.0",
-    "babel-jest": "^23.0.0",
+    "babel-jest": "^23.0.1",
     "babel-log": "^2.0.0",
     "babel-plugin-tester": "^5.0.0",
     "babel-preset-env": "^1.6.1",
