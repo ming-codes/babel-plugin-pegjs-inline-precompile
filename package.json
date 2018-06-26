@@ -47,7 +47,7 @@
     "babel-plugin-tester": "^5.0.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-flow": "^6.23.0",
-    "eslint": "^4.12.1",
+    "eslint": "^5.0.1",
     "eslint-config-precure": "^2.7.0",
     "flow-bin": "^0.71.0",
     "husky": "^0.14.3",
