@@ -40,7 +40,7 @@
     "ast"
   ],
   "devDependencies": {
-    "all-contributors-cli": "^4.10.0",
+    "all-contributors-cli": "^5.4.0",
     "babel-cli": "^6.26.0",
     "babel-jest": "^23.0.0",
     "babel-log": "^2.0.0",
