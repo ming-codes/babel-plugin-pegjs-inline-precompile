@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-pegjs-inline-precompile",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Babel plugin for inline precompile of pegjs expression",
   "license": "MIT",
   "repository": "",
