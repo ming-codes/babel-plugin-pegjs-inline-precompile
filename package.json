@@ -44,7 +44,7 @@
     "babel-cli": "^6.26.0",
     "babel-jest": "^23.0.0",
     "babel-log": "^2.0.0",
-    "babel-plugin-tester": "^5.0.0",
+    "babel-plugin-tester": "^6.3.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-flow": "^6.23.0",
     "eslint": "^5.0.1",
